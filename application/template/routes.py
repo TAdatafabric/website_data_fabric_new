@@ -1,4 +1,4 @@
-from application import app
+from application.template import app
 from flask import render_template, url_for
 import pandas as pd
 import json
